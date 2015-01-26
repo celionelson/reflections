@@ -1,7 +1,19 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-->A folder named '.git' is created.
+-> A folder named '.git' is created.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-->I don't know.
+--> The staging area is where I add files from my working directory that I will commit next. It enables me to add multiple files on the staging area first and then commit (then they'll be committed together, a good thing for CSS and HTML files that are working linked together for exemple).
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+--> I can compare the staged file and the last commit with "diff" to make sure I have only one logical change between them, and then commit when it's good.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+--> For exemple, when I want to experiment new features without risking to impact the code already working properly. I can then create a new branch and experiment there, and go back to master whenever needed.
+
+How do the diagrams help you visualize the branch structure?
+
+--> They're a good way to now what are the parents of a commit.
