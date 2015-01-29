@@ -4,7 +4,7 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
---> The staging area is where I add files from my working directory that I will commit next. It enables me to add multiple files on the staging area first and then commit (then they'll be committed together, a good thing for CSS and HTML files that are working linked together for exemple).
+--> The staging area is where I add files from my working directory that I will commit next. It enables me to add multiple files on the staging area first and then commit (then they'll be committed together, a good thing for CSS and HTML files that are working linked together for example).
 
 How can you use the staging area to make sure you have one commit per logical change?
 
@@ -12,7 +12,7 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
---> For exemple, when I want to experiment new features without risking to impact the code already working properly. I can then create a new branch and experiment there, and go back to master whenever needed.
+--> For example, when I want to experiment new features without risking to impact the code already working properly. I can then create a new branch and experiment there, and go back to master whenever needed.
 
 How do the diagrams help you visualize the branch structure?
 
@@ -24,5 +24,5 @@ What is the result of merging two branches together? Why do we represent it in t
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
---> Pros: Saves a tremendous amount of time and permits to always update experimental code with the master's evolution for exemple.
+--> Pros: Saves a tremendous amount of time and permits to always update experimental code with the master's evolution for example.
 	Cons: Sometimes some code changes may be too complex to merge automatically, that's why merging manually assures the developer to apply only the changes he wants.
