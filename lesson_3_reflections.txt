@@ -15,3 +15,8 @@ Clones are a copies of online repositories to my local directory, on my computer
 Branches are different versions (or series of commits) of a file. They're used to experiment a new feature in your existing code without risking to damage the master code for example.
 
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+--> This way, when offline, we can still compare our local version to the last known online version.
+
+
