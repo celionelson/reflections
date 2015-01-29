@@ -24,3 +24,8 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 
 --> I don't see anything easier! GitHub is tremendously useful to manage versions of files, collaborate and work at the same time on the project without risking to override the others changes. It permits to concretely share ideas before implementing them to the project.
 
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+--> When I want to experiment a new feature of my code and share it with others before including it in the master branch. This way I can work on multiple parts of my code without having to worry about the already running part of it.
+
